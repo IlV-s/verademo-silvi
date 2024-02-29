@@ -1,0 +1,39 @@
+      pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+                powershell 'mvn package'
+            }
+        }
+      stage('SCA SC') {
+         steps {
+	 withCredentials([string(credentialsId: 'SRCCLR_API_TOKEN', variable: 'SRCCLR_API_TOKEN')]) {
+}
+		powershell """
+                  Set-ExecutionPolicy AllSigned -Scope Process -Force
+                  iex ((New-Object System.Net.WebClient).DownloadString('https://download.srcclr.com/ci.ps1')) 
+                  srcclr scan --allow-dirty .
+		        """
+             }
+         }
+      stage('Veracode Sast') {
+         // upload and scan
+         steps {
+               veracode applicationName: 'VeraDemo', canFailJob: false, createProfile: false, criticality: 'High', fileNamePattern: '', replacementPattern: '', sandboxName: '', scanExcludesPattern: '', scanIncludesPattern: '', scanName: "$BUILD_NUMBER", teams: '', timeout: 60, uploadExcludesPattern: '', uploadIncludesPattern: '**/**.war', vid: VERACODE_API_ID, vkey: VERACODE_API_KEY
+            }
+         }
+      }
+   }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+	post {
+	    always {
+	      archiveArtifacts artifacts: 'results.json', fingerprint: true
+	    }
+	}
