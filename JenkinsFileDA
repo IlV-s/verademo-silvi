@@ -1,0 +1,15 @@
+stage ('veracodeDynamicAnalysis') {
+
+ withCredentials([usernamePassword(credentialsId: 'veracode-credentials',
+ passwordVariable: 'VERACODE_API_KEY', usernameVariable: 'VERACODE_API_ID')]) {
+
+	node {
+	veracodeDynamicAnalysisResubmit analysisName: 'Dynamic Analysis Jenkins Pipeline', 
+		debug: true, 
+		maximumDuration: 72, 
+		vid: VERACODE_API_ID, 
+		vkey: VERACODE_API_KEY
+
+	}
+       }
+}
