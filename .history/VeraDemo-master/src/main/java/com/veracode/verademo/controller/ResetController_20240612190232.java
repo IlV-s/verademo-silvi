@@ -38,11 +38,6 @@ public class ResetController {
 
 	private static User[] users = new User[] {
 			User.create("admin", "admin", "Thats Mr Administrator to you."),
-			User.create("admin", "admin", "Thats Mr Administrator to you."),
-			User.create("admin", "admin", "Thats Mr Administrator to you."),
-			User.create("admin", "admin", "Thats Mr Administrator to you."),
-			User.create("admin", "admin", "Thats Mr Administrator to you."),
-			User.create("admin", "admin", "Thats Mr Administrator to you."),
 			User.create("john", "John", "John Smith"),
 			User.create("paul", "Paul", "Paul Farrington"),
 			User.create("chrisc", "Chris", "Chris Campbell"),
