@@ -11,7 +11,7 @@ import org.apache.log4j.Logger;
 
 public class IgnoreCommand implements BlabberCommand {	
 	private static final Logger logger = LogManager.getLogger("VeraDemo:IgnoreCommand");
-	
+	//testing!!!!!!
 	private Connection connect;
 	
 	private String username;
