@@ -54,7 +54,8 @@ public class Constants {
 					port,
 					dbname,
 					URLEncoder.encode(username, "UTF-8"),
-					URLEncoder.encode(password, "UTF-8")
+					// URLEncoder.encode(password, "UTF-8")
+					//hello test
 			);
 		}
 		catch (UnsupportedEncodingException e) {
