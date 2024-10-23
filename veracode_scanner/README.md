@@ -118,6 +118,18 @@ The default settings (supplying only the upload file, and valid credentials from
 * Veracode Pipeline Scan CI tool expects you to upload a `ZIP` file containing `.php` files.
 * For more information refer to Veracode's compilation instructions for PHP: https://help.veracode.com/r/compilation_php
 
+#### COBOL
+* Veracode Pipeline Scan CI tool expects you to submit a COBOL application in a standard `ZIP` format.
+* For more info refer to the Veracode Packaging Requirements for COBOL: https://docs.veracode.com/r/c_compilation_cobol
+
+#### iOS
+* Veracode Pipeline Scan CI tool expects you to submit a iOS application in a standard `ZIP` format.
+* For more info refer to the Veracode Packaging Requirements for iOS: https://docs.veracode.com/r/compilation_ios
+
+#### Apex
+* Veracode Pipeline Scan CI tool expects you to submit a Apex application in a standard `ZIP` format.
+* For more info refer to the Veracode Packaging Requirements for Apex: https://docs.veracode.com/r/c_compilation_apex
+
 #### Ruby on Rails
 * Veracode Pipeline Scan CI tool expects you to submit a Ruby application in a standard `ZIP` format.
 * For more info refer to the Veracode Packaging Requirements for Ruby on Rails: https://docs.veracode.com/r/compilation_ruby

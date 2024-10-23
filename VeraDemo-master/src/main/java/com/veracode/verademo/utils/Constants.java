@@ -12,6 +12,7 @@ public class Constants {
 	/* START BAD CODE */
 	private final String JDBC_PASSWORD = "z2^E6J4$;u;d";
 	/* END BAD CODE */
+	private final String JDBC_Name="TEST";
 
 	private String hostname;
 	private String port;
@@ -54,7 +55,8 @@ public class Constants {
 					port,
 					dbname,
 					URLEncoder.encode(username, "UTF-8"),
-					URLEncoder.encode(password, "UTF-8")
+					// URLEncoder.encode(password, "UTF-8")
+					//hello test
 			);
 		}
 		catch (UnsupportedEncodingException e) {
