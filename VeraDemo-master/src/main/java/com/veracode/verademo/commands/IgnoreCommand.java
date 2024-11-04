@@ -8,9 +8,7 @@ import java.sql.Statement;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-//test
-//test2222
-//maitest
+
 public class IgnoreCommand implements BlabberCommand {	
 	private static final Logger logger = LogManager.getLogger("VeraDemo:IgnoreCommand");
 	//testing!!!!!!
