@@ -4,15 +4,15 @@
       "href": "/"
     },
     "self": {
-      "href": "/scans/89293f04-45a4-485b-bd24-641908198d3e/findings"
+      "href": "/scans/52df0604-88df-460a-a141-8058ac7eb72f/findings"
     },
     "help": {
       "href": "https://docs.veracode.com/"
     }
   },
-  "scan_id": "89293f04-45a4-485b-bd24-641908198d3e",
+  "scan_id": "52df0604-88df-460a-a141-8058ac7eb72f",
   "scan_status": "SUCCESS",
-  "message": "Scan successful. Results size: 406482 bytes",
+  "message": "Scan successful. Results size: 415939 bytes",
   "modules": [
     "verademo.war",
     "JS files within verademo.war"
@@ -22,7 +22,7 @@
     {
       "title": "java.lang.Runtime.exec",
       "issue_id": 1190,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ToolsController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ToolsController",
       "gob": "B",
       "severity": 5,
       "issue_type_id": "taint",
@@ -62,7 +62,7 @@
     {
       "title": "java.lang.Runtime.exec",
       "issue_id": 1191,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ToolsController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ToolsController",
       "gob": "B",
       "severity": 5,
       "issue_type_id": "taint",
@@ -102,7 +102,7 @@
     {
       "title": "java.lang.Runtime.exec",
       "issue_id": 1188,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ToolsController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ToolsController",
       "gob": "B",
       "severity": 5,
       "issue_type_id": "taint",
@@ -142,7 +142,7 @@
     {
       "title": "java.lang.Runtime.exec",
       "issue_id": 1189,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ToolsController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ToolsController",
       "gob": "B",
       "severity": 5,
       "issue_type_id": "taint",
@@ -182,7 +182,7 @@
     {
       "title": "java.sql.Statement.executeQuery",
       "issue_id": 1015,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 4,
       "issue_type_id": "taint",
@@ -196,7 +196,7 @@
           "line": 166,
           "function_name": "processLogin",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processLogin",
-          "function_prototype": "java.lang.String processLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String processLogin(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027user\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027password\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027remember\u0027, required\u003d0) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027target\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -222,7 +222,7 @@
     {
       "title": "java.sql.Statement.executeQuery",
       "issue_id": 1017,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 4,
       "issue_type_id": "taint",
@@ -262,7 +262,7 @@
     {
       "title": "java.sql.Statement.executeQuery",
       "issue_id": 1016,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 4,
       "issue_type_id": "taint",
@@ -276,7 +276,7 @@
           "line": 316,
           "function_name": "processRegister",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processRegister",
-          "function_prototype": "java.lang.String processRegister(java.lang.String, javax.servlet.http.HttpServletRequest, org.springframework.ui.Model)",
+          "function_prototype": "java.lang.String processRegister(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027user\u0027) java.lang.String, javax.servlet.http.HttpServletRequest, org.springframework.ui.Model)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -302,7 +302,7 @@
     {
       "title": "java.sql.Statement.execute",
       "issue_id": 1010,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 4,
       "issue_type_id": "taint",
@@ -316,7 +316,7 @@
           "line": 384,
           "function_name": "processRegisterFinish",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processRegisterFinish",
-          "function_prototype": "java.lang.String processRegisterFinish(java.lang.String, java.lang.String, java.lang.String, java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.springframework.ui.Model)",
+          "function_prototype": "java.lang.String processRegisterFinish(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027password\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027cpassword\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027realName\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027blabName\u0027, required\u003d1) java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.springframework.ui.Model)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -342,7 +342,7 @@
     {
       "title": "java.sql.Statement.executeQuery",
       "issue_id": 1018,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 4,
       "issue_type_id": "taint",
@@ -356,7 +356,7 @@
           "line": 495,
           "function_name": "showProfile",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.showProfile",
-          "function_prototype": "java.lang.String showProfile(java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String showProfile(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027type\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -382,7 +382,7 @@
     {
       "title": "java.sql.PreparedStatement.executeQuery",
       "issue_id": 1027,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 4,
       "issue_type_id": "taint",
@@ -396,7 +396,7 @@
           "line": 506,
           "function_name": "showProfile",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.showProfile",
-          "function_prototype": "java.lang.String showProfile(java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String showProfile(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027type\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -422,7 +422,7 @@
     {
       "title": "java.sql.PreparedStatement.executeQuery",
       "issue_id": 1026,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
       "gob": "B",
       "severity": 4,
       "issue_type_id": "taint",
@@ -436,7 +436,7 @@
           "line": 490,
           "function_name": "showBlabbers",
           "qualified_function_name": "com.veracode.verademo.controller.BlabController.showBlabbers",
-          "function_prototype": "java.lang.String showBlabbers(java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String showBlabbers(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027sort\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.BlabController"
         }
       },
@@ -462,7 +462,7 @@
     {
       "title": "java.sql.Statement.executeQuery",
       "issue_id": 1014,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/RemoveAccountCommand",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/RemoveAccountCommand",
       "gob": "B",
       "severity": 4,
       "issue_type_id": "taint",
@@ -502,7 +502,7 @@
     {
       "title": "java.sql.Statement.execute",
       "issue_id": 1009,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/RemoveAccountCommand",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/RemoveAccountCommand",
       "gob": "B",
       "severity": 4,
       "issue_type_id": "taint",
@@ -542,7 +542,7 @@
     {
       "title": "java.sql.Statement.execute",
       "issue_id": 1011,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/RemoveAccountCommand",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/RemoveAccountCommand",
       "gob": "B",
       "severity": 4,
       "issue_type_id": "taint",
@@ -582,7 +582,7 @@
     {
       "title": "java.sql.Statement.executeQuery",
       "issue_id": 1013,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/ListenCommand",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/ListenCommand",
       "gob": "B",
       "severity": 4,
       "issue_type_id": "taint",
@@ -622,7 +622,7 @@
     {
       "title": "java.sql.Statement.execute",
       "issue_id": 1008,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/ListenCommand",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/ListenCommand",
       "gob": "B",
       "severity": 4,
       "issue_type_id": "taint",
@@ -662,7 +662,7 @@
     {
       "title": "java.sql.Statement.executeQuery",
       "issue_id": 1012,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/IgnoreCommand",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/IgnoreCommand",
       "gob": "B",
       "severity": 4,
       "issue_type_id": "taint",
@@ -702,7 +702,7 @@
     {
       "title": "java.sql.Statement.execute",
       "issue_id": 1007,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/IgnoreCommand",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/IgnoreCommand",
       "gob": "B",
       "severity": 4,
       "issue_type_id": "taint",
@@ -742,7 +742,7 @@
     {
       "title": "java.io.ObjectInput.readObject",
       "issue_id": 1186,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/utils/UserFactory",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/utils/UserFactory",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -782,7 +782,7 @@
     {
       "title": "java.security.MessageDigest.getInstance",
       "issue_id": 1185,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/utils/User",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/utils/User",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -818,7 +818,7 @@
     {
       "title": "JDBC_PASSWORD initializer",
       "issue_id": 1006,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/utils/Constants",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/utils/Constants",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -854,7 +854,7 @@
     {
       "title": "JDBC_PASSWORD",
       "issue_id": 1155,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/utils/Constants",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/utils/Constants",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -890,7 +890,7 @@
     {
       "title": "showLogin",
       "issue_id": 1001,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -904,7 +904,7 @@
           "line": 82,
           "function_name": "showLogin",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.showLogin",
-          "function_prototype": "java.lang.String showLogin(java.lang.String, java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String showLogin(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027target\u0027, required\u003d0) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027username\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -930,7 +930,7 @@
     {
       "title": "showLogin",
       "issue_id": 1002,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -944,7 +944,7 @@
           "line": 95,
           "function_name": "showLogin",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.showLogin",
-          "function_prototype": "java.lang.String showLogin(java.lang.String, java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String showLogin(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027target\u0027, required\u003d0) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027username\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -970,7 +970,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1135,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -984,7 +984,7 @@
           "line": 114,
           "function_name": "showLogin",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.showLogin",
-          "function_prototype": "java.lang.String showLogin(java.lang.String, java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String showLogin(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027target\u0027, required\u003d0) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027username\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -1010,7 +1010,7 @@
     {
       "title": "javax.servlet.http.HttpServletResponse.addCookie",
       "issue_id": 1065,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1024,7 +1024,7 @@
           "line": 173,
           "function_name": "processLogin",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processLogin",
-          "function_prototype": "java.lang.String processLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String processLogin(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027user\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027password\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027remember\u0027, required\u003d0) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027target\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -1050,7 +1050,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1132,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1064,7 +1064,7 @@
           "line": 229,
           "function_name": "processLogin",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processLogin",
-          "function_prototype": "java.lang.String processLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String processLogin(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027user\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027password\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027remember\u0027, required\u003d0) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027target\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -1090,7 +1090,7 @@
     {
       "title": "processLogin",
       "issue_id": 1003,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1104,7 +1104,7 @@
           "line": 230,
           "function_name": "processLogin",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processLogin",
-          "function_prototype": "java.lang.String processLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String processLogin(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027user\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027password\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027remember\u0027, required\u003d0) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027target\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -1130,7 +1130,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1151,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1170,7 +1170,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1145,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1210,7 +1210,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1136,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1250,7 +1250,7 @@
     {
       "title": "showPasswordHint",
       "issue_id": 1004,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1290,7 +1290,7 @@
     {
       "title": "showPasswordHint",
       "issue_id": 1005,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1330,7 +1330,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1134,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1344,7 +1344,7 @@
           "line": 385,
           "function_name": "processRegisterFinish",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processRegisterFinish",
-          "function_prototype": "java.lang.String processRegisterFinish(java.lang.String, java.lang.String, java.lang.String, java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.springframework.ui.Model)",
+          "function_prototype": "java.lang.String processRegisterFinish(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027password\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027cpassword\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027realName\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027blabName\u0027, required\u003d1) java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.springframework.ui.Model)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -1370,7 +1370,7 @@
     {
       "title": "javax.mail.Message.setSubject",
       "issue_id": 1187,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1410,7 +1410,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1137,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1424,7 +1424,7 @@
           "line": 493,
           "function_name": "showProfile",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.showProfile",
-          "function_prototype": "java.lang.String showProfile(java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String showProfile(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027type\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -1450,7 +1450,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1146,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1464,7 +1464,7 @@
           "line": 504,
           "function_name": "showProfile",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.showProfile",
-          "function_prototype": "java.lang.String showProfile(java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String showProfile(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027type\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -1490,7 +1490,7 @@
     {
       "title": "javax.servlet.http.HttpServletResponse.addCookie",
       "issue_id": 1066,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1504,7 +1504,7 @@
           "line": 631,
           "function_name": "processProfile",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processProfile",
-          "function_prototype": "java.lang.String processProfile(java.lang.String, java.lang.String, java.lang.String, org.springframework.web.multipart.MultipartFile, org.springframework.web.multipart.MultipartHttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String processProfile(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027realName\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027blabName\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027username\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027file\u0027, required\u003d0) org.springframework.web.multipart.MultipartFile, org.springframework.web.multipart.MultipartHttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -1530,7 +1530,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1133,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1544,7 +1544,7 @@
           "line": 658,
           "function_name": "processProfile",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processProfile",
-          "function_prototype": "java.lang.String processProfile(java.lang.String, java.lang.String, java.lang.String, org.springframework.web.multipart.MultipartFile, org.springframework.web.multipart.MultipartHttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String processProfile(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027realName\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027blabName\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027username\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027file\u0027, required\u003d0) org.springframework.web.multipart.MultipartFile, org.springframework.web.multipart.MultipartHttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -1570,7 +1570,7 @@
     {
       "title": "java.io.File.!operator_javanewinit",
       "issue_id": 1051,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1584,7 +1584,7 @@
           "line": 660,
           "function_name": "processProfile",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processProfile",
-          "function_prototype": "java.lang.String processProfile(java.lang.String, java.lang.String, java.lang.String, org.springframework.web.multipart.MultipartFile, org.springframework.web.multipart.MultipartHttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String processProfile(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027realName\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027blabName\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027username\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027file\u0027, required\u003d0) org.springframework.web.multipart.MultipartFile, org.springframework.web.multipart.MultipartHttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -1610,7 +1610,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1144,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1624,7 +1624,7 @@
           "line": 694,
           "function_name": "downloadImage",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.downloadImage",
-          "function_prototype": "java.lang.String downloadImage(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String downloadImage(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027image\u0027, required\u003d1) java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -1650,7 +1650,7 @@
     {
       "title": "java.io.File.!operator_javanewinit",
       "issue_id": 1050,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1664,7 +1664,7 @@
           "line": 699,
           "function_name": "downloadImage",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.downloadImage",
-          "function_prototype": "java.lang.String downloadImage(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String downloadImage(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027image\u0027, required\u003d1) java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -1690,7 +1690,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1131,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1704,7 +1704,7 @@
           "line": 708,
           "function_name": "downloadImage",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.downloadImage",
-          "function_prototype": "java.lang.String downloadImage(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String downloadImage(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027image\u0027, required\u003d1) java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -1730,7 +1730,7 @@
     {
       "title": "javax.servlet.ServletResponse.setContentType",
       "issue_id": 1060,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1744,7 +1744,7 @@
           "line": 711,
           "function_name": "downloadImage",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.downloadImage",
-          "function_prototype": "java.lang.String downloadImage(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String downloadImage(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027image\u0027, required\u003d1) java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -1770,7 +1770,7 @@
     {
       "title": "javax.servlet.http.HttpServletResponse.setHeader",
       "issue_id": 1068,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1784,7 +1784,7 @@
           "line": 713,
           "function_name": "downloadImage",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.downloadImage",
-          "function_prototype": "java.lang.String downloadImage(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String downloadImage(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027image\u0027, required\u003d1) java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -1810,7 +1810,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1139,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1850,7 +1850,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1138,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1890,7 +1890,7 @@
     {
       "title": "java.io.File.!operator_javanewinit",
       "issue_id": 1052,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -1930,7 +1930,7 @@
     {
       "title": "java.security.MessageDigest.getInstance",
       "issue_id": 1184,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -1966,7 +1966,7 @@
     {
       "title": "create",
       "issue_id": 1156,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2002,7 +2002,7 @@
     {
       "title": "create",
       "issue_id": 1157,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2038,7 +2038,7 @@
     {
       "title": "create",
       "issue_id": 1158,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2074,7 +2074,7 @@
     {
       "title": "create",
       "issue_id": 1159,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2110,7 +2110,7 @@
     {
       "title": "create",
       "issue_id": 1160,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2146,7 +2146,7 @@
     {
       "title": "create",
       "issue_id": 1161,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2182,7 +2182,7 @@
     {
       "title": "create",
       "issue_id": 1162,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2218,7 +2218,7 @@
     {
       "title": "create",
       "issue_id": 1163,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2254,7 +2254,7 @@
     {
       "title": "create",
       "issue_id": 1164,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2290,7 +2290,7 @@
     {
       "title": "create",
       "issue_id": 1165,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2326,7 +2326,7 @@
     {
       "title": "create",
       "issue_id": 1166,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2362,7 +2362,7 @@
     {
       "title": "create",
       "issue_id": 1167,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2398,7 +2398,7 @@
     {
       "title": "create",
       "issue_id": 1168,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2434,7 +2434,7 @@
     {
       "title": "create",
       "issue_id": 1169,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2470,7 +2470,7 @@
     {
       "title": "create",
       "issue_id": 1170,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2506,7 +2506,7 @@
     {
       "title": "create",
       "issue_id": 1171,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2542,7 +2542,7 @@
     {
       "title": "create",
       "issue_id": 1172,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2578,7 +2578,7 @@
     {
       "title": "create",
       "issue_id": 1173,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2614,7 +2614,7 @@
     {
       "title": "create",
       "issue_id": 1174,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2650,7 +2650,7 @@
     {
       "title": "create",
       "issue_id": 1175,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2686,7 +2686,7 @@
     {
       "title": "create",
       "issue_id": 1176,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2722,7 +2722,7 @@
     {
       "title": "create",
       "issue_id": 1177,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2758,7 +2758,7 @@
     {
       "title": "create",
       "issue_id": 1178,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2794,7 +2794,7 @@
     {
       "title": "create",
       "issue_id": 1179,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2830,7 +2830,7 @@
     {
       "title": "create",
       "issue_id": 1180,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2866,7 +2866,7 @@
     {
       "title": "create",
       "issue_id": 1181,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2902,7 +2902,7 @@
     {
       "title": "create",
       "issue_id": 1182,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2938,7 +2938,7 @@
     {
       "title": "create",
       "issue_id": 1183,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "crypto",
@@ -2974,7 +2974,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1143,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -2988,7 +2988,7 @@
           "line": 125,
           "function_name": "processReset",
           "qualified_function_name": "com.veracode.verademo.controller.ResetController.processReset",
-          "function_prototype": "java.lang.String processReset(java.lang.String, java.lang.String, org.springframework.ui.Model)",
+          "function_prototype": "java.lang.String processReset(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027confirm\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027primary\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model)",
           "scope": "com.veracode.verademo.controller.ResetController"
         }
       },
@@ -3014,7 +3014,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1130,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3028,7 +3028,7 @@
           "line": 148,
           "function_name": "processReset",
           "qualified_function_name": "com.veracode.verademo.controller.ResetController.processReset",
-          "function_prototype": "java.lang.String processReset(java.lang.String, java.lang.String, org.springframework.ui.Model)",
+          "function_prototype": "java.lang.String processReset(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027confirm\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027primary\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model)",
           "scope": "com.veracode.verademo.controller.ResetController"
         }
       },
@@ -3054,7 +3054,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1150,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3068,7 +3068,7 @@
           "line": 175,
           "function_name": "processReset",
           "qualified_function_name": "com.veracode.verademo.controller.ResetController.processReset",
-          "function_prototype": "java.lang.String processReset(java.lang.String, java.lang.String, org.springframework.ui.Model)",
+          "function_prototype": "java.lang.String processReset(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027confirm\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027primary\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model)",
           "scope": "com.veracode.verademo.controller.ResetController"
         }
       },
@@ -3094,7 +3094,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1154,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3108,7 +3108,7 @@
           "line": 209,
           "function_name": "processReset",
           "qualified_function_name": "com.veracode.verademo.controller.ResetController.processReset",
-          "function_prototype": "java.lang.String processReset(java.lang.String, java.lang.String, org.springframework.ui.Model)",
+          "function_prototype": "java.lang.String processReset(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027confirm\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027primary\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model)",
           "scope": "com.veracode.verademo.controller.ResetController"
         }
       },
@@ -3134,7 +3134,7 @@
     {
       "title": "getMoreFeed",
       "issue_id": 1000,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3148,7 +3148,7 @@
           "line": 204,
           "function_name": "getMoreFeed",
           "qualified_function_name": "com.veracode.verademo.controller.BlabController.getMoreFeed",
-          "function_prototype": "java.lang.String getMoreFeed(java.lang.String, java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String getMoreFeed(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027count\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027len\u0027, required\u003d1) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.BlabController"
         }
       },
@@ -3174,7 +3174,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1129,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3188,7 +3188,7 @@
           "line": 486,
           "function_name": "showBlabbers",
           "qualified_function_name": "com.veracode.verademo.controller.BlabController.showBlabbers",
-          "function_prototype": "java.lang.String showBlabbers(java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String showBlabbers(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027sort\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.BlabController"
         }
       },
@@ -3214,7 +3214,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1128,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3228,7 +3228,7 @@
           "line": 558,
           "function_name": "processBlabbers",
           "qualified_function_name": "com.veracode.verademo.controller.BlabController.processBlabbers",
-          "function_prototype": "java.lang.String processBlabbers(java.lang.String, java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String processBlabbers(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027blabberUsername\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027command\u0027, required\u003d1) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.BlabController"
         }
       },
@@ -3254,7 +3254,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1142,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3268,7 +3268,7 @@
           "line": 559,
           "function_name": "processBlabbers",
           "qualified_function_name": "com.veracode.verademo.controller.BlabController.processBlabbers",
-          "function_prototype": "java.lang.String processBlabbers(java.lang.String, java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String processBlabbers(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027blabberUsername\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027command\u0027, required\u003d1) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.BlabController"
         }
       },
@@ -3294,7 +3294,7 @@
     {
       "title": "java.lang.Class.forName",
       "issue_id": 1069,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3308,7 +3308,7 @@
           "line": 571,
           "function_name": "processBlabbers",
           "qualified_function_name": "com.veracode.verademo.controller.BlabController.processBlabbers",
-          "function_prototype": "java.lang.String processBlabbers(java.lang.String, java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String processBlabbers(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027blabberUsername\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027command\u0027, required\u003d1) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.BlabController"
         }
       },
@@ -3334,7 +3334,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1153,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/RemoveAccountCommand",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/RemoveAccountCommand",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3374,7 +3374,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1149,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/RemoveAccountCommand",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/RemoveAccountCommand",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3414,7 +3414,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1127,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/RemoveAccountCommand",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/RemoveAccountCommand",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3454,7 +3454,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1148,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/ListenCommand",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/ListenCommand",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3494,7 +3494,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1141,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/ListenCommand",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/ListenCommand",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3534,7 +3534,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1147,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/IgnoreCommand",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/IgnoreCommand",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3574,7 +3574,7 @@
     {
       "title": "org.apache.log4j.Category.info",
       "issue_id": 1140,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/IgnoreCommand",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/commands/IgnoreCommand",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3613,8 +3613,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1205,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/tools_jsp",
+      "issue_id": 1206,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/tools_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3653,8 +3653,8 @@
     },
     {
       "title": "java.io.Writer.write",
-      "issue_id": 1235,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/tools_jsp",
+      "issue_id": 1240,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/tools_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3693,8 +3693,8 @@
     },
     {
       "title": "java.io.Writer.write",
-      "issue_id": 1236,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/tools_jsp",
+      "issue_id": 1241,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/tools_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3733,8 +3733,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1203,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/register_jsp",
+      "issue_id": 1204,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/register_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3773,8 +3773,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1210,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/register_jsp",
+      "issue_id": 1211,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/register_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3813,8 +3813,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1201,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/register_002dfinish_jsp",
+      "issue_id": 1202,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/register_002dfinish_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3853,8 +3853,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1209,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/register_002dfinish_jsp",
+      "issue_id": 1210,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/register_002dfinish_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3893,8 +3893,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1199,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
+      "issue_id": 1200,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3933,8 +3933,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1221,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
+      "issue_id": 1224,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3973,8 +3973,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1214,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
+      "issue_id": 1215,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4013,8 +4013,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1222,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
+      "issue_id": 1225,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4053,8 +4053,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1231,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
+      "issue_id": 1236,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4093,8 +4093,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1208,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
+      "issue_id": 1209,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4133,8 +4133,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1229,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
+      "issue_id": 1233,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4173,8 +4173,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1226,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
+      "issue_id": 1229,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4213,8 +4213,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1216,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/login_jsp",
+      "issue_id": 1219,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/login_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4253,8 +4253,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1198,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/login_jsp",
+      "issue_id": 1199,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/login_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4293,8 +4293,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1213,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/login_jsp",
+      "issue_id": 1214,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/login_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4333,8 +4333,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1220,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/feed_jsp",
+      "issue_id": 1223,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/feed_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4373,8 +4373,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1232,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/feed_jsp",
+      "issue_id": 1237,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/feed_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4413,8 +4413,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1225,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/feed_jsp",
+      "issue_id": 1228,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/feed_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4453,8 +4453,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1212,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/feed_jsp",
+      "issue_id": 1213,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/feed_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4493,8 +4493,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1234,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/feed_jsp",
+      "issue_id": 1239,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/feed_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4533,8 +4533,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1230,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/feed_jsp",
+      "issue_id": 1235,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/feed_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4574,7 +4574,7 @@
     {
       "title": "javax.servlet.jsp.JspWriter.print",
       "issue_id": 1196,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blabbers_jsp",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blabbers_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4613,8 +4613,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1228,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blabbers_jsp",
+      "issue_id": 1231,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blabbers_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4653,8 +4653,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1219,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blabbers_jsp",
+      "issue_id": 1222,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blabbers_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4693,8 +4693,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1218,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blab_jsp",
+      "issue_id": 1221,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blab_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4733,8 +4733,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1227,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blab_jsp",
+      "issue_id": 1230,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blab_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4774,7 +4774,7 @@
     {
       "title": "javax.servlet.jsp.JspWriter.print",
       "issue_id": 1194,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blab_jsp",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blab_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4813,8 +4813,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1215,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blab_jsp",
+      "issue_id": 1216,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blab_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4853,8 +4853,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1206,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blab_jsp",
+      "issue_id": 1207,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blab_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4893,8 +4893,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1223,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blab_jsp",
+      "issue_id": 1226,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blab_jsp",
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4934,7 +4934,7 @@
     {
       "title": "javax.servlet.http.HttpServletResponse.addCookie",
       "issue_id": 1064,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/utils/UserFactory",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/utils/UserFactory",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "crypto",
@@ -4970,7 +4970,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1038,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -4984,7 +4984,7 @@
           "line": 157,
           "function_name": "processLogin",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processLogin",
-          "function_prototype": "java.lang.String processLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String processLogin(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027user\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027password\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027remember\u0027, required\u003d0) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027target\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -5006,7 +5006,7 @@
     {
       "title": "javax.servlet.http.HttpServletResponse.addCookie",
       "issue_id": 1062,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "crypto",
@@ -5020,7 +5020,7 @@
           "line": 173,
           "function_name": "processLogin",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processLogin",
-          "function_prototype": "java.lang.String processLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String processLogin(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027user\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027password\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027remember\u0027, required\u003d0) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027target\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -5042,7 +5042,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1043,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5078,7 +5078,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1040,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5092,7 +5092,7 @@
           "line": 312,
           "function_name": "processRegister",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processRegister",
-          "function_prototype": "java.lang.String processRegister(java.lang.String, javax.servlet.http.HttpServletRequest, org.springframework.ui.Model)",
+          "function_prototype": "java.lang.String processRegister(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027user\u0027) java.lang.String, javax.servlet.http.HttpServletRequest, org.springframework.ui.Model)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -5114,7 +5114,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1042,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5128,7 +5128,7 @@
           "line": 368,
           "function_name": "processRegisterFinish",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processRegisterFinish",
-          "function_prototype": "java.lang.String processRegisterFinish(java.lang.String, java.lang.String, java.lang.String, java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.springframework.ui.Model)",
+          "function_prototype": "java.lang.String processRegisterFinish(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027password\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027cpassword\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027realName\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027blabName\u0027, required\u003d1) java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.springframework.ui.Model)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -5150,7 +5150,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1045,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5164,7 +5164,7 @@
           "line": 470,
           "function_name": "showProfile",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.showProfile",
-          "function_prototype": "java.lang.String showProfile(java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String showProfile(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027type\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -5186,7 +5186,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1039,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5200,7 +5200,7 @@
           "line": 573,
           "function_name": "processProfile",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processProfile",
-          "function_prototype": "java.lang.String processProfile(java.lang.String, java.lang.String, java.lang.String, org.springframework.web.multipart.MultipartFile, org.springframework.web.multipart.MultipartHttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String processProfile(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027realName\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027blabName\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027username\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027file\u0027, required\u003d0) org.springframework.web.multipart.MultipartFile, org.springframework.web.multipart.MultipartHttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -5222,7 +5222,7 @@
     {
       "title": "javax.servlet.http.HttpServletResponse.addCookie",
       "issue_id": 1063,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "crypto",
@@ -5236,7 +5236,7 @@
           "line": 631,
           "function_name": "processProfile",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.processProfile",
-          "function_prototype": "java.lang.String processProfile(java.lang.String, java.lang.String, java.lang.String, org.springframework.web.multipart.MultipartFile, org.springframework.web.multipart.MultipartHttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String processProfile(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027realName\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027blabName\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027username\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027file\u0027, required\u003d0) org.springframework.web.multipart.MultipartFile, org.springframework.web.multipart.MultipartHttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -5258,7 +5258,7 @@
     {
       "title": "javax.servlet.ServletResponse.setContentType",
       "issue_id": 1061,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "taint",
@@ -5272,7 +5272,7 @@
           "line": 711,
           "function_name": "downloadImage",
           "qualified_function_name": "com.veracode.verademo.controller.UserController.downloadImage",
-          "function_prototype": "java.lang.String downloadImage(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+          "function_prototype": "java.lang.String downloadImage(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027image\u0027, required\u003d1) java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
           "scope": "com.veracode.verademo.controller.UserController"
         }
       },
@@ -5298,7 +5298,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1047,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5334,7 +5334,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1046,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5370,7 +5370,7 @@
     {
       "title": "javax.mail.Transport.send",
       "issue_id": 1193,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "taint",
@@ -5410,7 +5410,7 @@
     {
       "title": "javax.mail.Transport.send",
       "issue_id": 1192,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/UserController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "taint",
@@ -5450,7 +5450,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1036,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5464,7 +5464,7 @@
           "line": 117,
           "function_name": "processReset",
           "qualified_function_name": "com.veracode.verademo.controller.ResetController.processReset",
-          "function_prototype": "java.lang.String processReset(java.lang.String, java.lang.String, org.springframework.ui.Model)",
+          "function_prototype": "java.lang.String processReset(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027confirm\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027primary\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model)",
           "scope": "com.veracode.verademo.controller.ResetController"
         }
       },
@@ -5486,7 +5486,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1037,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/ResetController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5522,7 +5522,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1035,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5536,7 +5536,7 @@
           "line": 69,
           "function_name": "showFeed",
           "qualified_function_name": "com.veracode.verademo.controller.BlabController.showFeed",
-          "function_prototype": "java.lang.String showFeed(java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String showFeed(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027type\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.BlabController"
         }
       },
@@ -5558,7 +5558,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1028,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5572,7 +5572,7 @@
           "line": 182,
           "function_name": "getMoreFeed",
           "qualified_function_name": "com.veracode.verademo.controller.BlabController.getMoreFeed",
-          "function_prototype": "java.lang.String getMoreFeed(java.lang.String, java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String getMoreFeed(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027count\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027len\u0027, required\u003d1) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.BlabController"
         }
       },
@@ -5594,7 +5594,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1032,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5608,7 +5608,7 @@
           "line": 232,
           "function_name": "processFeed",
           "qualified_function_name": "com.veracode.verademo.controller.BlabController.processFeed",
-          "function_prototype": "java.lang.String processFeed(java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String processFeed(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027blab\u0027, required\u003d1) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.BlabController"
         }
       },
@@ -5630,7 +5630,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1033,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5644,7 +5644,7 @@
           "line": 307,
           "function_name": "showBlab",
           "qualified_function_name": "com.veracode.verademo.controller.BlabController.showBlab",
-          "function_prototype": "java.lang.String showBlab(java.lang.Integer, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String showBlab(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027blabid\u0027, required\u003d1) java.lang.Integer, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.BlabController"
         }
       },
@@ -5666,7 +5666,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1030,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5680,7 +5680,7 @@
           "line": 400,
           "function_name": "processBlab",
           "qualified_function_name": "com.veracode.verademo.controller.BlabController.processBlab",
-          "function_prototype": "java.lang.String processBlab(java.lang.String, java.lang.Integer, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String processBlab(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027comment\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027blabid\u0027, required\u003d1) java.lang.Integer, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.BlabController"
         }
       },
@@ -5702,7 +5702,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1034,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5716,7 +5716,7 @@
           "line": 483,
           "function_name": "showBlabbers",
           "qualified_function_name": "com.veracode.verademo.controller.BlabController.showBlabbers",
-          "function_prototype": "java.lang.String showBlabbers(java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String showBlabbers(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027sort\u0027, required\u003d0) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.BlabController"
         }
       },
@@ -5738,7 +5738,7 @@
     {
       "title": "java.sql.DriverManager.getConnection",
       "issue_id": 1031,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/verademo/controller/BlabController",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "reliability",
@@ -5752,7 +5752,7 @@
           "line": 568,
           "function_name": "processBlabbers",
           "qualified_function_name": "com.veracode.verademo.controller.BlabController.processBlabbers",
-          "function_prototype": "java.lang.String processBlabbers(java.lang.String, java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
+          "function_prototype": "java.lang.String processBlabbers(@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027blabberUsername\u0027, required\u003d1) java.lang.String,@org.springframework.web.bind.annotation.RequestParam(value\u003d\u0027command\u0027, required\u003d1) java.lang.String, org.springframework.ui.Model, javax.servlet.http.HttpServletRequest)",
           "scope": "com.veracode.verademo.controller.BlabController"
         }
       },
@@ -5773,8 +5773,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1204,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/register_jsp",
+      "issue_id": 1205,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/register_jsp",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "taint",
@@ -5813,8 +5813,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1202,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/register_002dfinish_jsp",
+      "issue_id": 1203,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/register_002dfinish_jsp",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "taint",
@@ -5853,8 +5853,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1200,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
+      "issue_id": 1201,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/profile_jsp",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "taint",
@@ -5893,8 +5893,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1217,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/login_jsp",
+      "issue_id": 1220,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/login_jsp",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "taint",
@@ -5933,8 +5933,8 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1233,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/feed_jsp",
+      "issue_id": 1238,
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/feed_jsp",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "taint",
@@ -5974,7 +5974,7 @@
     {
       "title": "javax.servlet.jsp.JspWriter.print",
       "issue_id": 1197,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blabbers_jsp",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blabbers_jsp",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "taint",
@@ -6014,7 +6014,7 @@
     {
       "title": "javax.servlet.jsp.JspWriter.print",
       "issue_id": 1195,
-      "image_path": "file:/tmp/tmpa__4eeyp/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blab_jsp",
+      "image_path": "file:/tmp/tmp3yixe5s1/binary/verademo.veracodegen.vc.war.aes#zip:com/veracode/compiledjsp/xverademowar/WEB_002dINF/views/blab_jsp",
       "gob": "B",
       "severity": 2,
       "issue_type_id": "taint",
@@ -6173,6 +6173,6 @@
     }
   ],
   "selected_modules": [],
-  "pipeline_scan": "24.10.0-0",
+  "pipeline_scan": "25.2.0-0",
   "dev_stage": "DEVELOPMENT"
 }
